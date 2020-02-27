@@ -12,7 +12,6 @@ namespace Praktika
 {
     public partial class Заказы : Form
     {
-        //TEST
         public Заказы()
         {
             InitializeComponent();
