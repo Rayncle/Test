@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Praktika
 {
-    public partial class Form1 : Form
+    public partial class Ткани : Form
     {
-        public Form1()
+        public Ткани()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
