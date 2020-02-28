@@ -41,8 +41,10 @@
             this.тканьDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.изделиеBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.изделиеBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.изделиеBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.изделиеBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -143,6 +145,10 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // изделиеBindingSource1
+            // 
+            this.изделиеBindingSource1.DataSource = typeof(Praktika.Изделие);
+            // 
             // Изделия
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,8 +158,10 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Изделия";
             this.Text = "Изделия";
+            this.Load += new System.EventHandler(this.Изделия_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.изделиеBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.изделиеBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -172,5 +180,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn тканьDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource изделиеBindingSource;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource изделиеBindingSource1;
     }
 }

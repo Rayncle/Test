@@ -42,8 +42,10 @@
             this.фурнитураизделияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.фурнитураBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.фурнитураBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.фурнитураBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.фурнитураBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -62,7 +64,7 @@
             this.складфурнитурыDataGridViewTextBoxColumn,
             this.фурнитураизделияDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.фурнитураBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 29);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 21);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1247, 374);
             this.dataGridView1.TabIndex = 0;
@@ -152,6 +154,10 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // фурнитураBindingSource1
+            // 
+            this.фурнитураBindingSource1.DataSource = typeof(Praktika.Фурнитура);
+            // 
             // Фурнитуры
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,8 +167,10 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Фурнитуры";
             this.Text = "Фурнитуры";
+            this.Load += new System.EventHandler(this.Фурнитуры_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.фурнитураBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.фурнитураBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -182,5 +190,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn фурнитураизделияDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource фурнитураBindingSource;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource фурнитураBindingSource1;
     }
 }

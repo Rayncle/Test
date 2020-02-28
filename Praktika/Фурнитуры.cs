@@ -12,6 +12,7 @@ namespace Praktika
 {
     public partial class Фурнитуры : Form
     {
+        Model1 db = new Model1();
         public Фурнитуры()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace Praktika
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Фурнитуры_Load(object sender, EventArgs e)
+        {
+            фурнитураBindingSource.DataSource = db.Фурнитура.ToList();
         }
     }
 }

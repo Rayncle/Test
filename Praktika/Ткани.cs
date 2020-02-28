@@ -12,6 +12,7 @@ namespace Praktika
 {
     public partial class Ткани : Form
     {
+        Model1 db = new Model1();
         public Ткани()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace Praktika
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Ткани_Load(object sender, EventArgs e)
+        {
+            тканьBindingSource.DataSource = db.Ткань.ToList();
         }
     }
 }

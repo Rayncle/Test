@@ -321,7 +321,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Поступление_материалов";
-            this.Text = "v";
+            this.Text = "Поступление материалов";
             this.Load += new System.EventHandler(this.Поступление_материалов_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.фактпоступленияматериаловBindingSource)).EndInit();

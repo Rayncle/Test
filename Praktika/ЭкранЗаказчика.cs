@@ -12,6 +12,7 @@ namespace Praktika
 {
     public partial class ЭкранЗаказчика : Form
     {
+        Model1 db = new Model1();
         public ЭкранЗаказчика()
         {
             InitializeComponent();
@@ -22,6 +23,11 @@ namespace Praktika
             Form vh = new Вход();
             vh.Visible = true;
             this.Close();
+        }
+
+        private void ЭкранЗаказчика_Load(object sender, EventArgs e)
+        {
+            заказBindingSource.DataSource = db.Заказ.ToList();
         }
     }
 }
