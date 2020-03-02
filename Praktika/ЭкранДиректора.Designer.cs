@@ -74,7 +74,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "ЭкранДиректора";
-            this.Text = "ЭкранДиректора";
+            this.Text = "Меню управления директора";
             this.ResumeLayout(false);
             this.PerformLayout();
 

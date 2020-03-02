@@ -25,7 +25,7 @@ namespace Praktika
 
         private void Заказы_Load(object sender, EventArgs e)
         {
-            заказBindingSource.DataSource = db.Заказ.ToList();
+
         }
 
         private void button2_Click(object sender, EventArgs e)

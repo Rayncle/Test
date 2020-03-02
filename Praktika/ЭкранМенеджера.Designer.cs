@@ -87,7 +87,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "ЭкранМенеджера";
-            this.Text = "ЭкранМенеджера";
+            this.Text = "Меню управления менеджера";
             this.ResumeLayout(false);
             this.PerformLayout();
 

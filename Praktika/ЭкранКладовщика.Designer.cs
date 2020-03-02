@@ -100,7 +100,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "ЭкранКладовщика";
-            this.Text = "ЭкранКладовщика";
+            this.Text = "Меню управления кладовщика";
             this.ResumeLayout(false);
             this.PerformLayout();
 

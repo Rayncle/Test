@@ -169,7 +169,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Ткани";
-            this.Text = "Ткани";
+            this.Text = "Ткань";
             this.Load += new System.EventHandler(this.Ткани_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.тканьBindingSource)).EndInit();

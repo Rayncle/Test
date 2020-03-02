@@ -166,7 +166,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Фурнитуры";
-            this.Text = "Фурнитуры";
+            this.Text = "Фурнитура";
             this.Load += new System.EventHandler(this.Фурнитуры_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.фурнитураBindingSource)).EndInit();

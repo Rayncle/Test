@@ -174,7 +174,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Name = "ЭкранЗаказчика";
-            this.Text = "ЭкранЗаказчика";
+            this.Text = "Меню управления заказчика";
             this.Load += new System.EventHandler(this.ЭкранЗаказчика_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказBindingSource)).EndInit();
